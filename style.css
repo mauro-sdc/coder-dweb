@@ -37,8 +37,23 @@ footer a:hover {
   text-decoration: underline;
 }
 
+/* Desktop*/
 .logo-carousel {
   width: 120px;
   height: auto;
   object-fit: contain;
+}
+
+/* Tablets (>= 576px hasta <768px) */
+@media (max-width: 768px) {
+  .logo-carousel {
+    width: 80px;
+  }
+}
+
+/* Celulares (<576px) */
+@media (max-width: 575.99px) {
+  .logo-carousel {
+    width: 60px;
+  }
 }
